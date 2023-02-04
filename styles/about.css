@@ -1,0 +1,36 @@
+/* --- ABOUT PAGE --- */
+
+.about-text h1 {
+  color: #0000ff;
+}
+
+.about-page-container {
+  align-items: center;
+  display: grid;
+  grid-gap: 6rem;
+  grid-template-columns: repeat;
+  min-height: 700px;
+}
+
+.about-page-container button {
+  background-color: #0000ff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  height: 60px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+  width: 220px;
+}
+
+.about-page-container button:hover {
+  background: transparent;
+  border: 2px solid #0000ff;
+  color: #0000ff;
+}

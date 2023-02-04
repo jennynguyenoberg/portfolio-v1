@@ -1,0 +1,13 @@
+@font-face {
+  font-family: SFUIText;
+  font-weight: 500;
+  src: url('/jennys-portfolio-2.0/fonts/SFUIText-Regular.woff') format('woff'),
+    url('/jennys-portfolio-2.0/fonts/SFUIText-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: SFUIText;
+  font-weight: 700;
+  src: url('/jennys-portfolio-2.0/fonts/SFUIText-Semibold.woff') format('woff'),
+    url('/jennys-portfolio-2.0/fonts/SFUIText-Semibold.woff2') format('woff2');
+}

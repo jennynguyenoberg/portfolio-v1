@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio of Jenny Nguyen Öberg</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio of Jenny Nguyen Öberg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/jennys-portfolio-2.0/styles/qc.slider.css">
+  <link rel="stylesheet" href="/jennys-portfolio-2.0/styles/index.css">
+  <link rel="stylesheet" href="/jennys-portfolio-2.0/styles/projects.css">
+  <link rel="stylesheet" href="/jennys-portfolio-2.0/styles/typography.css">
+  <link rel="shortcut icon" href="/jennys-portfolio-2.0/images/JennyNguyenÖberg_logo.png" type="image/x-icon">
+  <script src="/jennys-portfolio-2.0/script/jquery-3.6.1.js"></script>
+  <script src="/jennys-portfolio-2.0/script/qcslider.jquery.js"></script>
+  <script src="/jennys-portfolio-2.0/script/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-content">
+      <div class="nav-personal-logo">
+        <a href="">
+          <img src="/jennys-portfolio-2.0/images/JennyNguyenÖberg_logo.png" alt="Logotype of Jenny Nguyen Öberg">
+        </a>
+      </div>
+      <div class="wrapper">
+        <div class="menu">
+          <ul class="nav-area">
+            <li class="dropdown"><a href="">About</a>
+              <ul>
+                <li><a href="/jennys-portfolio-2.0/html/about.html">Profile</a></li>
+                <li><a href="/jennys-portfolio-2.0/html/skills.html">Skills</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="">Projects</a>
+              <ul>
+                <li><a href="/jennys-portfolio-2.0/html/projects.html">All projects</a></li>
+                <li><a href="/jennys-portfolio-2.0/html/hangman-game.html" target="_blank">Hangman Game</a></li>
+                <li><a href="https://jennynguyenoberg.github.io/api-assign4/" target="_blank">Bored API</a></li>
+                <li><a href="https://jennynguyenoberg.github.io/memory-game/" target="_blank">Memory Game</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/jennys-portfolio-2.0/html/contact.html" class="nav-link-anchor nav-link-anchor-primary">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="main content">
+      <div class="about-me-info row">
+        <div class="about-me-info-container">
+          <figure class="about-me-picture">
+            <img src="images/Jenny Nguyen Öberg_foto.png" class="profile-picture" alt="Picture of Jenny Nguyen Öberg">
+          </figure>
+          <h1>Hi! Hej! Xin Chào!</h1>
+          <p>
+            My name is Jenny Nguyen Öberg 👋<br>
+            I'm a soon-to-be Frontend Developer and an experienced Designer based in beautiful Stockholm, Sweden.
+            Creative at heart with a passion for the details.</p>
+        </div>
+      </div>
+    </section>
+    <section class="slide">
+      <div class="slider-container">
+        <ul class="slider-wrapper" id="slider">
+          <li class="slide-current">
+            <!-- Image -->
+            <img src="../jennys-portfolio-2.0/images/dell-0J8thHZfosE-unsplash.jpg" alt="Image of computer"/>
+            <!-- Image Description -->
+            <div class="capa"></div>
+          </li>
+          <li class="slide">
+            <!-- Image -->
+            <img src="../jennys-portfolio-2.0/images/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="Image of workplace"/>
+            <!-- Image Description -->
+            <div class="capa"></div>
+          </li>
+          <li class="slide">
+            <!-- Image -->
+            <img src="../jennys-portfolio-2.0/images/maik-jonietz-nZcMWOKAJrY-unsplash.jpg" alt="Image of code"/>
+            <!-- Image Description -->
+            <div class="capa"></div>
+          </li>
+        </ul>
+        <!-- Nav controls -->
+        <div class="drt-control control-left" id="lft-control"><</div>
+        <div class="drt-control control-right" id="rht-control">></div>
+        <ul class="slider-controls" id="slider-controls"></ul>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="projects-title">
+        <h1>Selected Projects</h1>
+      </div>
+      <div class="project-box">
+        <div class="project-column">
+          <a href="/jennys-portfolio-2.0/html/hangman-game.html" target="_blank">
+            <img src="/jennys-portfolio-2.0/images/hangman.png" alt="Image of my holiday hangman game">
+          </a>
+          <h2>Holiday Hangman Game</h2>
+          <h3>Read more</h3>
+          <p>Prompt and alert console game using vanilla Javascript, with excersices like arrays, functions and loops.</p>
+        </div>
+        <div class="project-column">
+          <a href="https://jennynguyenoberg.github.io/api-assign4/" target="_blank">
+            <img src="/jennys-portfolio-2.0/images/assignment4_API.png" alt="Image of website connecting to an API">
+          </a>
+          <h2>Connecting to an API</h2>
+          <h3>Read more</h3>
+          <p>Excercise of how to fetch data from an external resource using JSON objects, AJAX, HTML/CSS/JS and jQuery.</p>
+        </div>
+        <div class="project-column">
+          <a href="https://jennynguyenoberg.github.io/memory-game/" target="_blank">
+            <img src="/jennys-portfolio-2.0/images/assignment3_memory.png" alt="Image of my memory game with pixel art">
+          </a>
+          <h2>Memory game</h2>
+          <h3>Read more</h3>
+          <p>A pixel art memory game using vanilla Javascript, with excercises implementing code to the Document Object Model (DOM).</p>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-social-list">
+        <a href="https://github.com/jennynguyenoberg" class="footer-social-link" target="_blank">GitHub</a>
+        <a href="https://www.behance.net/jennynguyenoberg" class="footer-social-link" target="_blank">Behance</a>
+        <a href="https://www.linkedin.com/in/jennynguyenoberg" class="footer-social-link" target="_blank">LinkedIn</a>
+        <a href="mailto:hello@jennynguyenoberg.com" class="footer-social-link" target="_blank">Email</a>
+        <a href="images/Jenny Nguyen Öberg_CV.pdf" class="footer-social-link" target="_blank">Resume</a>
+      </div>
+      <div class="footer-copyright">© Jenny Nguyen Öberg 2023</div>
+    </div>
+  </footer>
+</body>
+
+</html>

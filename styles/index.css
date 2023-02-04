@@ -1,0 +1,311 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* --- GENERAL --- */
+
+html {
+  height: 100vh;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'SFUIText';
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --opacity-slide: 0.5;
+  --height-slider: 1000px;
+  --color-slider: #0000ff;
+  --height-responsive: 500px;
+}
+
+body {
+  background-color: #eeeeee;
+  color: #242424;
+}
+
+h1 {
+  font-family: 'SFUIText';
+  font-size: 30px;
+  line-height: 1.25;
+  margin: 16px 0;
+  text-align: center;
+}
+
+h2 {
+  color: #979494;
+  font-size: 16px;
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #0000ff;
+}
+
+p {
+  color: #242424;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+/* --- LINKS--- */
+
+h3:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0000ff;
+}
+
+/* --- NAVIGATION --- */
+
+nav {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 12px;
+  font-weight: 700;
+}
+
+.nav-personal-logo img {
+  margin-left: 10px;
+  width: 40px;
+}
+
+.wrapper {
+  background-color: transparent;
+  text-align: right;
+  width: 960px;
+  margin: 20px;
+}
+
+.nav-area,
+.nav-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-area li {
+  position: relative;
+}
+
+.nav-area a {
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-area a:hover {
+  background: transparent;
+  text-decoration: underline;
+
+}
+
+.nav-area > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+.nav-area > li:first-child {
+  margin-left: 0;
+}
+
+.nav-area > li > ul {
+  text-align: left;
+  display: none;
+  background: transparent;
+  position: absolute;
+  top: 100%;
+  width: 240px;
+  z-index: 99999;
+}
+
+/* --- MAIN CONTENT SECTION --- */
+
+.about-me-info,
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.about-me-info-container,
+.contact-page-container,
+.about-page-container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-me-picture {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+  height: 200px;
+  margin: 28px 0;
+  overflow: hidden;
+  width: 200px;
+}
+
+.profile-picture {
+  width: 100%;
+}
+
+.image-container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 70px 0 70px 0;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 12px;
+  width: 100%;
+}
+
+/* --- IMAGE SLIDER --- */
+
+section.slide {
+  margin-top: 50px;
+  padding: 0px 10px;
+  float: unset;
+}
+
+section.slide .slider-container .slider-wrapper li .capa {
+  color: #ffffff;
+  font-size: 2em;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* --- FOOTER --- */
+
+.footer {
+  align-items: center;
+  background-color: #242424;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  justify-content: center;
+  padding: 8% 0;
+}
+
+.footer-social-list {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 38px;
+  max-width: 70%;
+  width: 100%;
+}
+
+.footer-social-link,
+.footer-copyright {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.footer-social-link:hover {
+  color: #ffffff;
+}
+
+.footer-social-link:visited {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 10px 10%;
+  }
+
+  .about-me-info h1 {
+    font-size: 25px;
+  }
+
+  .about-me-picture {
+    height: 100px;
+    width: 100px;
+  }
+
+  .contact-form h1 {
+    font-size: 30px;
+  }
+
+  .project-box p {
+    display: none;
+  }
+
+  .project-box .cta {
+    margin-top: -5px;
+  }
+
+}

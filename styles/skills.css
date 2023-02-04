@@ -1,0 +1,92 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* --- SKILLS PAGE --- */
+
+.skill-inner {
+  padding-top: 20px;
+}
+
+.skill-header {
+  color: blue;
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.skill-header p {
+  margin: 0 20%;
+}
+
+.skill-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  font-size: 1.2rem;
+  grid-gap: 1rem;
+  -ms-grid-columns: 1fr 1rem 1fr 1rem 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 80px;
+  text-align: center;
+}
+
+.skill-box {
+  padding: 1rem;
+}
+
+.skill-title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120px;
+}
+
+.skill-icon {
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-container {
+    -ms-grid-columns: 1fr 1rem 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
+
+  .skill-header p {
+    margin: 40px 100px;
+  }
+}
