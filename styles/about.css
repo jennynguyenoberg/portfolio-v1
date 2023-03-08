@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* --- ABOUT PAGE --- */
 
 .about-text h1 {
@@ -5,9 +12,13 @@
 }
 
 .about-page-container {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
   display: grid;
   grid-gap: 6rem;
+  -ms-grid-columns: repeat;
   grid-template-columns: repeat;
   min-height: 700px;
 }

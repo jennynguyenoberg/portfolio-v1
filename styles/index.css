@@ -14,7 +14,7 @@ html {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'SFUIText';
+  font-family: SFUIText-Regular;
   margin: 0;
   padding: 0;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-family: 'SFUIText';
+  font-family: SFUIText-Regular;
   font-size: 30px;
   line-height: 1.25;
   margin: 16px 0;
@@ -69,6 +69,14 @@ li {
 a {
   position: relative;
   text-decoration: none;
+}
+
+.projects-title {
+  font-family: SFUIText-Regular;
+  font-size: 30px;
+  line-height: 1.25;
+  margin: 16px 0;
+  text-align: center;
 }
 
 /* --- LINKS--- */
@@ -157,6 +165,11 @@ nav {
   top: 100%;
   width: 240px;
   z-index: 99999;
+}
+
+.dropdownMenu {
+  background-color: #fff;
+  z-index: 999;
 }
 
 /* --- MAIN CONTENT SECTION --- */
@@ -308,4 +321,7 @@ section.slide .slider-container .slider-wrapper li .capa {
     margin-top: -5px;
   }
 
+  .nav-area > li > ul {
+    background-color: #fff;
+  }
 }
