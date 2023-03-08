@@ -1,6 +1,6 @@
 @font-face {
   font-family: SFUIText-Regular;
   font-weight: 500;
-  src: url('/jennys-portfolio-2.0/fonts/SFUIText-Regular.woff') format('woff'),
-    url('/jennys-portfolio-2.0/fonts/SFUIText-Regular.woff2') format('woff2');
+  src: url('../fonts/SFUIText-Regular.woff') format('woff'),
+    url('../fonts/SFUIText-Regular.woff2') format('woff2');
 }
